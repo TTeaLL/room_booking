@@ -21,3 +21,10 @@
 6) Отмена бронирования DELETE /bookings/<booking_id>
 
 7) Просмотр записей конкретного юзера GET /users/<user_id>/
+
+8) Регистрация пользователя POST /register
+   содержимое
+{
+    "username": "new_username",
+    "password": "new_password"
+}
